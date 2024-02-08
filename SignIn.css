@@ -1,0 +1,19 @@
+.captcha #preview {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    width: fit-content;
+    padding: 10px;
+    user-select: none;
+    margin: 5px;
+}
+
+
+.captcha {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
